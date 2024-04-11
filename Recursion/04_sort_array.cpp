@@ -20,6 +20,7 @@ void insertIntoSortedArray(vector<int> &arr, int n, int last_element)
     arr[i + 1] = last_element;
 }
 
+// This function will place the value in sorted place 
 void insertIntoSortedArrayRecursion(vector<int> &arr, int last_element)
 {
     int size = arr.size();
